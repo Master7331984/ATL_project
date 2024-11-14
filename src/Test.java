@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
 
+
 //           Scanner scan = new Scanner(System.in);
 //               System.out.println("1-ci ededi daxil edin:");
 //           var a= scan.nextInt();
@@ -13,11 +14,11 @@ public class Test {
 //
 //           var      c= a+b;
 //               System.out.println(c);
-//                    c=a-b;
+//                    c= a-b;
 //               System.out.println(c);
-//                    c=a*b;
+//                    c= a*b;
 //               System.out.println(c);
-//                    c=a/b;
+//                    c= a/b;
 //               System.out.println(c);
             
 //         Scanner scan = new Scanner(System.in);
@@ -159,17 +160,16 @@ public class Test {
 //        int a= scan.nextInt();
 //        System.out.println("ededi daxil edin");
 //        int b= a/1000;
-//        boolean x=(a%2==0);
-//        System.out.println(x);
+//        boolean x=(b%2==0);
 //        int c= a/100%10;
-//        boolean y=(a%2==0);
-//        System.out.println(y);
+//        boolean y=(c%2==0);
 //        int d= a/10%10;
-//        boolean z=(a%2==0);
-//        System.out.println(z);
+//        boolean z=(d%2==0);
 //        int e= a%10;
 //        boolean f=(e%2==0);
-//        System.out.println(f);
+//        boolean k= x && y && z && f;
+//        System.out.println(k);
+
         //Dordreqemli ededin simmetrik olmasi
 //        Scanner scan = new Scanner(System.in);
 //        int a= scan.nextInt();
@@ -193,11 +193,11 @@ public class Test {
 //        System.out.println(f);
 
         // 3 ve ya 4 bolunme
-        Scanner scan = new Scanner(System.in);
-
-
-
-        System.out.println();
+//        Scanner scan = new Scanner(System.in);
+//
+//
+//
+//        System.out.println();
 
 //        Scanner scan= new Scanner(System.in);
 //        var Username="admin";
@@ -208,7 +208,83 @@ public class Test {
 //            else{
 //                System.out.println("Sisteme girish ugursuzdur");
 //            }
+        //Ededin 4 ve 6 bolunmesini yoxlayir
 
+//        Scanner scan = new Scanner(System.in);
+//        int a= scan.nextInt();
+//        System.out.println("Ededi daxil edin:");
+//        var b=a/4;
+//        var k=a/6;
+//        boolean f= (b%4==0 && k%6==0);
+//
+//        if (f){
+//            System.out.println("Eded tam bolunur" +f);
+//        }
+//        else {
+//            System.out.println("Eded tam bolunmur "+f);
+//        }
+
+//      Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter the month:");
+//        var month= scan.nextLine();
+//        var winter1 = "December";
+//        var winter2 = "January";
+//        var winter3 = "February";
+//
+//        var spring1 = "March";
+//        var spring2 = "April";
+//        var spring3 = "May";
+//
+//        var summer1 = "June";
+//        var summer2 = "July";
+//        var summer3 = "August";
+//
+//        var autumn1 = "September";
+//        var autumn2 = "October";
+//        var autumn3 = "November";
+//
+//        switch (month){
+//          case "December":
+//              System.out.println("Winter season:"+ " " + winter1);
+//          break;
+//          case "January":
+//              System.out.println("Winter season:"+ " " + winter2);
+//          break;
+//          case "February":
+//              System.out.println("Winter season:"+ " " + winter3);
+//          break;
+//          case "March":
+//              System.out.println("Spring season:"+ " " + spring1);
+//          break;
+//          case "April":
+//              System.out.println("Spring season:" + " " + spring2);
+//          break;
+//          case "May":
+//              System.out.println("Spring season:" + " " + spring3);
+//          break;
+//          case "June":
+//              System.out.println("Summer season:" + " " + summer1);
+//          break;
+//          case "July":
+//              System.out.println("Summer season:" + " " + summer2);
+//          break;
+//          case "August":
+//              System.out.println("Summer season:" + " " + summer3);
+//          break;
+//
+//          case "September":
+//              System.out.println("Autumn season:" + " " + autumn1);
+//          break;
+//          case "October":
+//              System.out.println("Autumn season:" + " " + autumn2);
+//          break;
+//          case "November":
+//              System.out.println("Autumn season:" + " " + autumn3);
+//          break;
+//
+//          default:
+//              System.out.println("Entered month does not exist!");
+//      }
 
 
 
