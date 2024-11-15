@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        var a= scan.nextInt();
+        for(int i=10; i<=99; i++){
+
+            System.out.println("eded:"+ a );
+        }
 
 
 //           Scanner scan = new Scanner(System.in);
@@ -287,26 +293,65 @@ public class Test {
 //      }
 
 
+//       Scanner scan = new Scanner(System.in);
+//       var a = 2;
+//       while(a<=10){
+//           if(a%2==0){
+//               System.out.println(a);
+//
+//           }
+//           a++;
+//
+//       }
+//        Scanner scan = new Scanner(System.in);
+//        var b = scan.nextInt();
+//        for (var a=1; a<=10; a++){
+//            System.out.println(b + "*" + a + "=" + a*b);
+//
+//
+//        }
+//        Scanner scan = new Scanner(System.in);
+//        var a= scan.nextInt();
+//        var b=scan.nextInt();
+//        for( var a=1; a<=10; a++){
+//            for(var b=1; b<=10; b++){
+//                System.out.println(a + "*"+ b + "="+ (a*b));
+//            }
+//        }
+//        int[] box = {1,4,7};
+//        for (var i = box.length-1; i>=0; i--){
+//            System.out.println(box[i]);
+//        }
 
+//     Scanner scan = new Scanner(System.in);
+//     var a= scan.nextInt();
+//     for(int i=10; i<=99; i++){
+//         System.out.println("eded:"+ "" +(a/10%10+ ""+ a%10));
+//     }
+     // 1+2+4+8+16+32+64+128+256+512+1024
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+           //int a=1;
+//           for (int i=2; i<=1024; i*=2){
+//               System.out.println(i);
+//           }
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
