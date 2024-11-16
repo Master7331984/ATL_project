@@ -1,15 +1,11 @@
 import java.math.BigDecimal;
 import java.util.Scanner;
+import java.util.SortedMap;
 
 
 public class Test {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        var a= scan.nextInt();
-        for(int i=10; i<=99; i++){
 
-            System.out.println("eded:"+ a );
-        }
 
 
 //           Scanner scan = new Scanner(System.in);
@@ -333,10 +329,45 @@ public class Test {
            //int a=1;
 //           for (int i=2; i<=1024; i*=2){
 //               System.out.println(i);
+
 //           }
+//        Scanner scan = new Scanner(System.in);
+//        var a= scan.nextInt();
+//        var sum=0;
+//        var a=1;
+//        for(long i=0; i<30; i++){
+//
+//            System.out.println(i+ " "+ a);
+//            sum+=a;
+//            a*=2;
+//
+//        }
+//        System.out.println(sum);
+//         int[] arr= {1,5,3,7};
+//        for(var i=arr.length-1; i>=0; i--) {
+//            System.out.println(arr[i]);
+//        }
+//        Scanner scan = new Scanner(System.in);
+//        var a = scan.nextInt();
+//        var b = scan.nextInt();
+//        for(int i=0; i<5; i++){
+//            a+=1;
+//            System.out.println(a);
+//            b+=2;
+//            System.out.println(b);
+//        }
+
+
+
+
+
+
+
+        }
+
     }
 
-}
+
 
 
 
