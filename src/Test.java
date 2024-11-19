@@ -357,15 +357,71 @@ public class Test {
 //            System.out.println(b);
 //        }
 
+        //String a = "";
+        //String b = "";
+        //* 4 boshluq*
+//        for(int i=0; i<=3; i++){
+//            System.out.print("*");
+//
+//            for(int j=0; j<3; j++){
+//                System.out.print("+");
+//                if(j==0){
+//                    System.out.print("#");
+//                }
+//
+//            }
+//            System.out.println("*");
+//
+//        }
+//           Scanner scan = new Scanner(System.in);
+//           int a = scan.nextInt();
+//           int n=a;
+//           int say=0;
+//           for(int i=1; i<=n; i++){
+//               if(a%i==0){
+//                   System.out.println("Ededin bolenleri:" + i);
+//                   say++;
+//               }
+//
+//
+//
+//           }
+//            System.out.println("Ededin sayi:" + say);
 
-
-
-
-
-
-        }
+//        Scanner scan = new Scanner(System.in);
+//        int a = scan.nextInt();
+//        int b= scan.nextInt();
+//        int say=0;
+//
+//        while(say>0){
+//            int a = b/10;
+//            if(a==b){
+//                say++;
+//            }
+//            say+=10;
+//        }
+//        System.out.println("");
+        //Massivdeki en boyuk ededi tapmaq
+//        int max=0;
+//        int[] arr = {5,7,6,33,26,99};
+//        for (int i=0; i<arr.length; i++){
+//
+//
+//            if(max<arr[i]){
+//                max= arr[i];
+//                System.out.println(max);
+//            }
+//
+//        }
+        // daxil edilen elementlerin cemi ve ededi ortasi tap
 
     }
+
+}
+
+
+
+
 
 
 
