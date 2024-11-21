@@ -4,11 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> ff5aa94551bb9e7dce88389788e18059616af6b8
         Scanner scanner = new Scanner(System.in);
         Toplama add = new Toplama();
         int a = add.topla(scanner.nextInt(), scanner.nextInt());
