@@ -1,3 +1,5 @@
+package Task_09_11_24;
+
 import java.util.Scanner;
 
 public class Payment_Discount {

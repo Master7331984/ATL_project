@@ -1,11 +1,22 @@
+import java.util.Scanner;
 public class Reverse_Name_Main {
     public static void main(String[] args) {
 
 
-        Reverse_Name name = new Reverse_Name();
+
+        Scanner scanner = new Scanner(System.in);
+        var word = new Reverse();
 
 
 
-        }
+        System.out.println();
+
+
+
+
+
+
+
+
     }
 }

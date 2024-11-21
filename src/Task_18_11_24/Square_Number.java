@@ -1,3 +1,5 @@
+package Task_18_11_24;
+
 import java.util.Scanner;
 
 public class Square_Number {
@@ -10,5 +12,16 @@ public class Square_Number {
         System.out.println(eded.square(num, sum));
 
 
+    }
+
+    public static class Digit_Square {
+        public int square(int num, int sum ){
+             int digit=1;
+             for (int i =0; i<sum; i++){
+                 digit= num*digit;
+             }
+
+             return digit;
+        }
     }
 }

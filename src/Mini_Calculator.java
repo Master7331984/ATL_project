@@ -8,20 +8,20 @@ public class Mini_Calculator {
 //        var b= scan.nextInt();
 //            System.out.println("b=" + b);
 //
-//        var calc1 = "a+b";
-//        var calc2 = "a-b";
-//        var calc3 = "a*b";
-//        var calc4 = "a/b";
-//        if (calc1.equals("a+b")){
+//        var calc1 = "a";
+//        var calc2 = "b";
+//
+//
+//        if (calc1.equals("+")){
 //            System.out.println("Toplama" + calc1);
 //        }
-//        else if (calc2==3){
+//        else if (){
 //            System.out.println("Cixma" + calc2);
 //        }
-//        else if (calc3==3){
+//        else if (){
 //           System.out.println("Vurma" + calc3);
 //        }
-//        else if (calc4==4){
+//        else if (){
 //            System.out.println("Bolme" + calc4);
 //        }
 //        else {

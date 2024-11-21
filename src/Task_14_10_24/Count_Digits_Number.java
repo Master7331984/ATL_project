@@ -1,3 +1,5 @@
+package Task_14_10_24;
+
 import java.util.Scanner;
 
 public class Count_Digits_Number {

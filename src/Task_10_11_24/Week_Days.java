@@ -1,3 +1,5 @@
+package Task_10_11_24;
+
 import java.util.Scanner;
 
 public class Week_Days {

@@ -13,8 +13,8 @@ public class Arr_Elements_Size {
 
         }
         System.out.print("Massivin elementleri:" + " ");
-        for (int i=0; i<arr_size.length; i++){
-            System.out.print(arr_size[i] + " ");
+        for (int j=0; j<arr_size.length; j++){
+            System.out.print(arr_size[j] + " ");
         }
     }
 }

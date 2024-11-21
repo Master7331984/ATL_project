@@ -1,3 +1,5 @@
+package Task_07_11_24;
+
 import java.util.Scanner;
 
 public class Student_Point {
