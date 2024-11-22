@@ -5,8 +5,11 @@ public class Student extends University {
     String student_name;
     int course_id;
 
-    public Student(int uni_id, String address, int student_id, int course_id, int teacher_id, String subject) {
-        super(uni_id, address, student_id, course_id, teacher_id, subject);
+    public Student(int uni_id, String uni_name, String uni_address, int student_id, String student_name, int course_id) {
+        super(uni_id, uni_name, uni_address);
+        this.student_id = student_id;
+        this.student_name = student_name;
+        this.course_id = course_id;
     }
 
     public int getStudent_id() {
@@ -16,6 +19,7 @@ public class Student extends University {
     public void setStudent_id(int student_id) {
         this.student_id = student_id;
     }
+
     public String getStudent_name() {
         return student_name;
     }
@@ -31,8 +35,10 @@ public class Student extends University {
     public void setCourse_id(int course_id) {
         this.course_id = course_id;
     }
+
     public void study(){
-        System.out.println("Student id: " + " " +student_id +" " +"Student name:"+" " +student_name +" "+ "Course:" +" "+ course_id);
+        System.out.println("Student id: " + " " +student_id +" " +"Student name:"+" " +student_name +" "+ "Course:" +" "+ course_id+
+                "University:"+" "+super.uni_id + "University name"+" "+super.uni_name + "University address"+" " +super.uni_address);
 
     }
 }

@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
 
-        University university = new University(1, "Nizami street", 1, 4, 2, "Informatika");
+        University university = new University(1, "BDU", "Nizami street");
         university.displayMessage();
-        Student student = new Student(2, "Reshid Behbudov", 2, 3, 12, "Tarix");
+        Student student = new Student(1,"Alim", "Fuzulu street",1,"Melik", 4);
         student.study();
-        Teacher teacher = new Teacher(1, "Uzeyir Hacibeyov", 2, 3, 5, "Fizika");
+        Teacher teacher = new Teacher(1, "ASUA", "Xaqani streat",2,"Aysel","Informatics");
         teacher.teach();
 
     }
