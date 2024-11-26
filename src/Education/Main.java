@@ -4,12 +4,15 @@ public class Main {
     public static void main(String[] args) {
 
 
-        University university = new University(1, "BDU", "Nizami street");
+        University university = new University("BDU","Nizami street");
         university.displayMessage();
-        Student student = new Student(1,"Alim", "Fuzulu street",1,"Melik", 4);
+        Student student = new Student("BSU","Fuzuli street","Ahmad","Physics");
         student.study();
-        Teacher teacher = new Teacher(1, "ASUA", "Xaqani streat",2,"Aysel","Informatics");
+        Teacher teacher = new Teacher(1,"ADSU","Xaqani street",2,"Aysel","Chemistry");
         teacher.teach();
+
+        Student student1 = new Student("BSU", "Fuzuli street","Dashgin","Chemistry");
+
 
     }
 }

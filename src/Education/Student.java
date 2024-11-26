@@ -3,13 +3,13 @@ package Education;
 public class Student extends University {
     int student_id;
     String student_name;
-    int course_id;
+    String course;
 
-    public Student(int uni_id, String uni_name, String uni_address, int student_id, String student_name, int course_id) {
-        super(uni_id, uni_name, uni_address);
-        this.student_id = student_id;
+    public Student(String uni_name, String uni_address, String student_name, String course) {
+        super(uni_name, uni_address);
+
         this.student_name = student_name;
-        this.course_id = course_id;
+        this.course = course;
     }
 
     public int getStudent_id() {
@@ -28,17 +28,17 @@ public class Student extends University {
         this.student_name = student_name;
     }
 
-    public int getCourse_id() {
-        return course_id;
+    public String getCourse() {
+        return course;
     }
 
-    public void setCourse_id(int course_id) {
-        this.course_id = course_id;
+    public void setCourse(String course) {
+        this.course = course;
     }
 
     public void study(){
-        System.out.println("Student id: " + " " +student_id +" " +"Student name:"+" " +student_name +" "+ "Course:" +" "+ course_id+
-                "University:"+" "+super.uni_id + "University name"+" "+super.uni_name + "University address"+" " +super.uni_address);
+        System.out.println("Student id: "+""+student_id +" " +"Student name:"+" " +student_name +" "+ "Course:" +" "+ course)
+                ;
 
     }
 }
