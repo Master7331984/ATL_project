@@ -27,7 +27,7 @@ public class Student_Point {
             System.out.println("F");
         }
         else {
-            System.out.println("Bal düzgün daxil edilməyib!");
+            System.out.println("Bal qiymətləndirmə aralığında deyil!");
         }
 
     }

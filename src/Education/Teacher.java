@@ -5,7 +5,7 @@ public class Teacher extends University {
     String teacher_name;
     String subject;
 
-    public Teacher(int uni_id, String uni_name, String uni_address, int teacher_id, String teacher_name, String subject) {
+    public Teacher( String uni_name, String uni_address, int teacher_id, String teacher_name, String subject) {
         super(uni_name, uni_address);
         this.teacher_id = teacher_id;
         this.teacher_name = teacher_name;
@@ -37,7 +37,7 @@ public class Teacher extends University {
     }
 
     public void teach(){
-        System.out.println("Teacher number:" + " " +teacher_id+ " " +"Teacher name:" +teacher_name + " " + "Subject:" + " " +subject);
+        System.out.println("University: "+ uni_name+ " Teacher id:" + " " +teacher_id+ " " +"Teacher name:" +teacher_name + " " + "Subject:" + " " +subject);
 
     }
 }

@@ -3,8 +3,8 @@ package Task_16_11_24;
 import java.util.Scanner;
 public class Arr_min_max_Elements {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         System.out.println("Eded daxil edin");
+        Scanner scan = new Scanner(System.in);
         int[] arr_size = new int [5];
         int min_digit = Integer.MAX_VALUE;
         int max_digit = arr_size[0];

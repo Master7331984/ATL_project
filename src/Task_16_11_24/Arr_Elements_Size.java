@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Arr_Elements_Size {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         System.out.println("Massive elementleri daxil edin:");
+        Scanner scan = new Scanner(System.in);
         int[] arr_size = new int[5];
 
         for (int i=0; i<arr_size.length; i++){
@@ -13,8 +13,8 @@ public class Arr_Elements_Size {
 
         }
         System.out.print("Massivin elementleri:" + " ");
-        for (int j=0; j<arr_size.length; j++){
-            System.out.print(arr_size[j] + " ");
+        for (int i : arr_size) {
+            System.out.print(i + " ");
         }
     }
 }

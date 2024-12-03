@@ -1,6 +1,6 @@
 package Interface_Example;
 
-public class Bike implements Vehicle{
+public class MotorBike implements Vehicle{
 
 
     @Override
@@ -13,5 +13,15 @@ public class Bike implements Vehicle{
     public void stopEngine() {
         System.out.println("Motosiklin muherriki sonduruldu");
 
+    }
+
+    @Override
+    public String getFuelType() {
+        return "dizel";
+    }
+
+    @Override
+    public String getEnergyType() {
+        return "electric";
     }
 }

@@ -7,7 +7,6 @@ public class Test {
     public static void main(String[] args) {
 
 
-
 //           Scanner scan = new Scanner(System.in);
 //               System.out.println("1-ci ededi daxil edin:");
 //           var a= scan.nextInt();
@@ -22,7 +21,7 @@ public class Test {
 //               System.out.println(c);
 //                    c= a/b;
 //               System.out.println(c);
-            
+
 //         Scanner scan = new Scanner(System.in);
 //        System.out.println("Adinizi daxil edin:");
 //        String name=scan.nextLine();
@@ -124,7 +123,7 @@ public class Test {
 //        int d= a%10;
 //        int e= d*100+c*10+b;
 //        System.out.println(e);
-       // Minlikler mertebesinde
+        // Minlikler mertebesinde
 //        Scanner scan = new Scanner(System.in);
 //        int a = scan.nextInt();
 //        System.out.println("ededi daxil edin:");
@@ -156,7 +155,7 @@ public class Test {
 //        int c=a%10;
 //        boolean d=(b==c);
 //        System.out.println("eded polendromdur"+ " " +d);
-        
+
         //Dordreqemli ededin cut olmasi
 //        Scanner scan = new Scanner(System.in);
 //        int a= scan.nextInt();
@@ -324,9 +323,9 @@ public class Test {
 //     for(int i=10; i<=99; i++){
 //         System.out.println("eded:"+ "" +(a/10%10+ ""+ a%10));
 //     }
-     // 1+2+4+8+16+32+64+128+256+512+1024
+        // 1+2+4+8+16+32+64+128+256+512+1024
 
-           //int a=1;
+        //int a=1;
 //           for (int i=2; i<=1024; i*=2){
 //               System.out.println(i);
 
@@ -413,12 +412,21 @@ public class Test {
 //            }
 //
 //        }
-        // daxil edilen elementlerin cemi ve ededi ortasi tap
+//
+//        int[] nums = {1, 2, 3};
+//        for (int i = 0; i < nums.length; i++) {
+//
+//            if (nums[i] == 3) {
+//                break;
+//            }
+//            System.out.println(nums[i]);
+//
+//
+//        }
+
 
     }
-
 }
-
 
 
 

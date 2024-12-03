@@ -8,10 +8,11 @@ public class Main {
         university.displayMessage();
         Student student = new Student("BSU","Fuzuli street","Ahmad","Physics");
         student.study();
-        Teacher teacher = new Teacher(1,"ADSU","Xaqani street",2,"Aysel","Chemistry");
+        Teacher teacher = new Teacher("ADSU","Xaqani street", 1,"Aysel","Chemistry");
         teacher.teach();
 
-        Student student1 = new Student("BSU", "Fuzuli street","Dashgin","Chemistry");
+        //Student student1 = new Student("BSU", "Fuzuli street","Dashgin","Chemistry");
+
 
 
     }

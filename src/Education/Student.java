@@ -37,8 +37,8 @@ public class Student extends University {
     }
 
     public void study(){
-        System.out.println("Student id: "+""+student_id +" " +"Student name:"+" " +student_name +" "+ "Course:" +" "+ course)
-                ;
+        System.out.println("University: " + uni_name+" Student id: "+""+student_id +" " +"Student name:"+" " +student_name +" "+ "Course:" +" "+ course);
+
 
     }
 }

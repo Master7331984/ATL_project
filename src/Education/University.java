@@ -38,7 +38,7 @@ public class University {
     }
 
     public void displayMessage() {
-        System.out.println("University name:" + " " + uni_name + " " + "University address:" + " " + uni_address);
+        System.out.println("University: " + " " + uni_name + " " + "University address:" + " " + uni_address);
 
     }
 }
